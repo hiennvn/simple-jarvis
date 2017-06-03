@@ -1,0 +1,69 @@
+[
+  {
+    "day": "2017-06-01",
+    "menu": [
+      {
+        "food": "Gà BeeChick"
+      },
+      {
+        "food": "bò sốt nấm"
+      },
+      {
+        "food": "cá kho"
+      }
+    ]
+  },
+  {
+    "day": "2017-06-02",
+    "menu": [
+      {
+        "food": "Gà BeeChick"
+      },
+      {
+        "food": "đậu nhồi thịt"
+      },
+      {
+        "food": "cá kho"
+      }
+    ]
+  },
+  {
+    "day": "2017-06-03",
+    "menu": [
+      {
+        "food": "Gà BeeChick"
+      },
+      {
+        "food": "đậu nhồi thịt"
+      }
+    ]
+  },
+  {
+    "day": "2017-06-04",
+    "menu": [
+      {
+        "food": "Gà BeeChick"
+      },
+      {
+        "food": "bò sốt nấm"
+      },
+      {
+        "food": "cá kho"
+      }
+    ]
+  },
+  {
+    "day": "2017-06-05",
+    "menu": [
+      {
+        "food": "Gà BeeChick"
+      },
+      {
+        "food": "bò sốt nấm"
+      },
+      {
+        "food": "cá kho"
+      }
+    ]
+  }
+]

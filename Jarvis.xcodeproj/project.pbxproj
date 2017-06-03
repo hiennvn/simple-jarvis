@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		908003491EE2A86500A42BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908003481EE2A86500A42BAB /* AppDelegate.swift */; };
+		9080034B1EE2A86500A42BAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080034A1EE2A86500A42BAB /* ViewController.swift */; };
+		9080034E1EE2A86500A42BAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9080034C1EE2A86500A42BAB /* Main.storyboard */; };
+		908003501EE2A86500A42BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9080034F1EE2A86500A42BAB /* Assets.xcassets */; };
+		908003531EE2A86500A42BAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 908003511EE2A86500A42BAB /* LaunchScreen.storyboard */; };
+		9080035E1EE2A86500A42BAB /* JarvisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9080035D1EE2A86500A42BAB /* JarvisTests.swift */; };
+		908003691EE2A86500A42BAB /* JarvisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908003681EE2A86500A42BAB /* JarvisUITests.swift */; };
+		908003791EE2A8B800A42BAB /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908003771EE2A8B800A42BAB /* MenuModel.swift */; };
+		9080037A1EE2A8B800A42BAB /* WitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908003781EE2A8B800A42BAB /* WitModel.swift */; };
+		99AEB7E9B98CA839588E9670 /* Pods_JarvisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC71F6D08CC0A27A57B0A79B /* Pods_JarvisUITests.framework */; };
+		CA17B2FBECC939B7CBAA24F9 /* Pods_JarvisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F903FFF5866CCFA430951445 /* Pods_JarvisTests.framework */; };
+		FFF48D843C1C2F07DABA1361 /* Pods_Jarvis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8592B604C801ED19C472748F /* Pods_Jarvis.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9080035A1EE2A86500A42BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9080033D1EE2A86500A42BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908003441EE2A86500A42BAB;
+			remoteInfo = Jarvis;
+		};
+		908003651EE2A86500A42BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9080033D1EE2A86500A42BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 908003441EE2A86500A42BAB;
+			remoteInfo = Jarvis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011AEA9FE474E112C7169B9F /* Pods-JarvisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JarvisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JarvisTests/Pods-JarvisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06EFC30C31651EB7AE52C5D2 /* Pods-JarvisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JarvisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JarvisUITests/Pods-JarvisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		09A123183D02313067A3FAC4 /* Pods-Jarvis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jarvis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jarvis/Pods-Jarvis.debug.xcconfig"; sourceTree = "<group>"; };
+		446D8023F62F167C1D6541F7 /* Pods-JarvisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JarvisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JarvisUITests/Pods-JarvisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		514BE7C7F74B67E719720BA9 /* Pods-JarvisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JarvisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JarvisTests/Pods-JarvisTests.release.xcconfig"; sourceTree = "<group>"; };
+		8592B604C801ED19C472748F /* Pods_Jarvis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jarvis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908003451EE2A86500A42BAB /* Jarvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908003481EE2A86500A42BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9080034A1EE2A86500A42BAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9080034D1EE2A86500A42BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9080034F1EE2A86500A42BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		908003521EE2A86500A42BAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		908003541EE2A86500A42BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908003591EE2A86500A42BAB /* JarvisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9080035D1EE2A86500A42BAB /* JarvisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisTests.swift; sourceTree = "<group>"; };
+		9080035F1EE2A86500A42BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908003641EE2A86500A42BAB /* JarvisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		908003681EE2A86500A42BAB /* JarvisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JarvisUITests.swift; sourceTree = "<group>"; };
+		9080036A1EE2A86500A42BAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908003771EE2A8B800A42BAB /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		908003781EE2A8B800A42BAB /* WitModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WitModel.swift; sourceTree = "<group>"; };
+		CC71F6D08CC0A27A57B0A79B /* Pods_JarvisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JarvisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23385FA3FF50D69D8E301EA /* Pods-Jarvis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jarvis.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jarvis/Pods-Jarvis.release.xcconfig"; sourceTree = "<group>"; };
+		F903FFF5866CCFA430951445 /* Pods_JarvisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JarvisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		908003421EE2A86500A42BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFF48D843C1C2F07DABA1361 /* Pods_Jarvis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003561EE2A86500A42BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA17B2FBECC939B7CBAA24F9 /* Pods_JarvisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003611EE2A86500A42BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99AEB7E9B98CA839588E9670 /* Pods_JarvisUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56F9FD428AE4902729AB19B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A123183D02313067A3FAC4 /* Pods-Jarvis.debug.xcconfig */,
+				D23385FA3FF50D69D8E301EA /* Pods-Jarvis.release.xcconfig */,
+				011AEA9FE474E112C7169B9F /* Pods-JarvisTests.debug.xcconfig */,
+				514BE7C7F74B67E719720BA9 /* Pods-JarvisTests.release.xcconfig */,
+				06EFC30C31651EB7AE52C5D2 /* Pods-JarvisUITests.debug.xcconfig */,
+				446D8023F62F167C1D6541F7 /* Pods-JarvisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9080033C1EE2A86500A42BAB = {
+			isa = PBXGroup;
+			children = (
+				908003471EE2A86500A42BAB /* Jarvis */,
+				9080035C1EE2A86500A42BAB /* JarvisTests */,
+				908003671EE2A86500A42BAB /* JarvisUITests */,
+				908003461EE2A86500A42BAB /* Products */,
+				56F9FD428AE4902729AB19B7 /* Pods */,
+				D908995490EE2FF346CF6582 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		908003461EE2A86500A42BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				908003451EE2A86500A42BAB /* Jarvis.app */,
+				908003591EE2A86500A42BAB /* JarvisTests.xctest */,
+				908003641EE2A86500A42BAB /* JarvisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		908003471EE2A86500A42BAB /* Jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				908003761EE2A8B800A42BAB /* Models */,
+				908003481EE2A86500A42BAB /* AppDelegate.swift */,
+				9080034A1EE2A86500A42BAB /* ViewController.swift */,
+				9080034C1EE2A86500A42BAB /* Main.storyboard */,
+				9080034F1EE2A86500A42BAB /* Assets.xcassets */,
+				908003511EE2A86500A42BAB /* LaunchScreen.storyboard */,
+				908003541EE2A86500A42BAB /* Info.plist */,
+			);
+			path = Jarvis;
+			sourceTree = "<group>";
+		};
+		9080035C1EE2A86500A42BAB /* JarvisTests */ = {
+			isa = PBXGroup;
+			children = (
+				9080035D1EE2A86500A42BAB /* JarvisTests.swift */,
+				9080035F1EE2A86500A42BAB /* Info.plist */,
+			);
+			path = JarvisTests;
+			sourceTree = "<group>";
+		};
+		908003671EE2A86500A42BAB /* JarvisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				908003681EE2A86500A42BAB /* JarvisUITests.swift */,
+				9080036A1EE2A86500A42BAB /* Info.plist */,
+			);
+			path = JarvisUITests;
+			sourceTree = "<group>";
+		};
+		908003761EE2A8B800A42BAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				908003771EE2A8B800A42BAB /* MenuModel.swift */,
+				908003781EE2A8B800A42BAB /* WitModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D908995490EE2FF346CF6582 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8592B604C801ED19C472748F /* Pods_Jarvis.framework */,
+				F903FFF5866CCFA430951445 /* Pods_JarvisTests.framework */,
+				CC71F6D08CC0A27A57B0A79B /* Pods_JarvisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		908003441EE2A86500A42BAB /* Jarvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9080036D1EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "Jarvis" */;
+			buildPhases = (
+				731B7BCB193038E8BE86CC1D /* [CP] Check Pods Manifest.lock */,
+				908003411EE2A86500A42BAB /* Sources */,
+				908003421EE2A86500A42BAB /* Frameworks */,
+				908003431EE2A86500A42BAB /* Resources */,
+				DD8729265710A8AA2D130C32 /* [CP] Embed Pods Frameworks */,
+				85CBE9927834205CB4D9C5BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jarvis;
+			productName = Jarvis;
+			productReference = 908003451EE2A86500A42BAB /* Jarvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		908003581EE2A86500A42BAB /* JarvisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908003701EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "JarvisTests" */;
+			buildPhases = (
+				A4E9194F9ABA5CC31685419B /* [CP] Check Pods Manifest.lock */,
+				908003551EE2A86500A42BAB /* Sources */,
+				908003561EE2A86500A42BAB /* Frameworks */,
+				908003571EE2A86500A42BAB /* Resources */,
+				18066F9CEC21F0E0BBBD39F1 /* [CP] Embed Pods Frameworks */,
+				3F13F99ED6C754A3BEAC1A0F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9080035B1EE2A86500A42BAB /* PBXTargetDependency */,
+			);
+			name = JarvisTests;
+			productName = JarvisTests;
+			productReference = 908003591EE2A86500A42BAB /* JarvisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		908003631EE2A86500A42BAB /* JarvisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 908003731EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "JarvisUITests" */;
+			buildPhases = (
+				8BC74D6527D453B5778025CA /* [CP] Check Pods Manifest.lock */,
+				908003601EE2A86500A42BAB /* Sources */,
+				908003611EE2A86500A42BAB /* Frameworks */,
+				908003621EE2A86500A42BAB /* Resources */,
+				90A0BDDDFC22DB9DCA7F816B /* [CP] Embed Pods Frameworks */,
+				E7F505B0F779490D531F55A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				908003661EE2A86500A42BAB /* PBXTargetDependency */,
+			);
+			name = JarvisUITests;
+			productName = JarvisUITests;
+			productReference = 908003641EE2A86500A42BAB /* JarvisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9080033D1EE2A86500A42BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hienn;
+				TargetAttributes = {
+					908003441EE2A86500A42BAB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8G28CT56Y6;
+						ProvisioningStyle = Automatic;
+					};
+					908003581EE2A86500A42BAB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 908003441EE2A86500A42BAB;
+					};
+					908003631EE2A86500A42BAB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 908003441EE2A86500A42BAB;
+					};
+				};
+			};
+			buildConfigurationList = 908003401EE2A86500A42BAB /* Build configuration list for PBXProject "Jarvis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9080033C1EE2A86500A42BAB;
+			productRefGroup = 908003461EE2A86500A42BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				908003441EE2A86500A42BAB /* Jarvis */,
+				908003581EE2A86500A42BAB /* JarvisTests */,
+				908003631EE2A86500A42BAB /* JarvisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		908003431EE2A86500A42BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908003531EE2A86500A42BAB /* LaunchScreen.storyboard in Resources */,
+				908003501EE2A86500A42BAB /* Assets.xcassets in Resources */,
+				9080034E1EE2A86500A42BAB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003571EE2A86500A42BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003621EE2A86500A42BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18066F9CEC21F0E0BBBD39F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JarvisTests/Pods-JarvisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F13F99ED6C754A3BEAC1A0F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JarvisTests/Pods-JarvisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731B7BCB193038E8BE86CC1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85CBE9927834205CB4D9C5BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jarvis/Pods-Jarvis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BC74D6527D453B5778025CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		90A0BDDDFC22DB9DCA7F816B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JarvisUITests/Pods-JarvisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E9194F9ABA5CC31685419B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8729265710A8AA2D130C32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jarvis/Pods-Jarvis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F505B0F779490D531F55A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JarvisUITests/Pods-JarvisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		908003411EE2A86500A42BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9080034B1EE2A86500A42BAB /* ViewController.swift in Sources */,
+				908003491EE2A86500A42BAB /* AppDelegate.swift in Sources */,
+				9080037A1EE2A8B800A42BAB /* WitModel.swift in Sources */,
+				908003791EE2A8B800A42BAB /* MenuModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003551EE2A86500A42BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9080035E1EE2A86500A42BAB /* JarvisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		908003601EE2A86500A42BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908003691EE2A86500A42BAB /* JarvisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9080035B1EE2A86500A42BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908003441EE2A86500A42BAB /* Jarvis */;
+			targetProxy = 9080035A1EE2A86500A42BAB /* PBXContainerItemProxy */;
+		};
+		908003661EE2A86500A42BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 908003441EE2A86500A42BAB /* Jarvis */;
+			targetProxy = 908003651EE2A86500A42BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9080034C1EE2A86500A42BAB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9080034D1EE2A86500A42BAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		908003511EE2A86500A42BAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				908003521EE2A86500A42BAB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9080036B1EE2A86500A42BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9080036C1EE2A86500A42BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9080036E1EE2A86500A42BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A123183D02313067A3FAC4 /* Pods-Jarvis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8G28CT56Y6;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.Jarvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9080036F1EE2A86500A42BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D23385FA3FF50D69D8E301EA /* Pods-Jarvis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8G28CT56Y6;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.Jarvis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		908003711EE2A86500A42BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011AEA9FE474E112C7169B9F /* Pods-JarvisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JarvisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.JarvisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Jarvis";
+			};
+			name = Debug;
+		};
+		908003721EE2A86500A42BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 514BE7C7F74B67E719720BA9 /* Pods-JarvisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JarvisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.JarvisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Jarvis";
+			};
+			name = Release;
+		};
+		908003741EE2A86500A42BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06EFC30C31651EB7AE52C5D2 /* Pods-JarvisUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JarvisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.JarvisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jarvis;
+			};
+			name = Debug;
+		};
+		908003751EE2A86500A42BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 446D8023F62F167C1D6541F7 /* Pods-JarvisUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JarvisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hienn.Jarvis.JarvisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jarvis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		908003401EE2A86500A42BAB /* Build configuration list for PBXProject "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9080036B1EE2A86500A42BAB /* Debug */,
+				9080036C1EE2A86500A42BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9080036D1EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9080036E1EE2A86500A42BAB /* Debug */,
+				9080036F1EE2A86500A42BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		908003701EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "JarvisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908003711EE2A86500A42BAB /* Debug */,
+				908003721EE2A86500A42BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		908003731EE2A86500A42BAB /* Build configuration list for PBXNativeTarget "JarvisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				908003741EE2A86500A42BAB /* Debug */,
+				908003751EE2A86500A42BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9080033D1EE2A86500A42BAB /* Project object */;
+}
